@@ -1,6 +1,6 @@
 # apidoc-swagger
 
-Build status: [![CircleCI](https://circleci.com/gh/fsbahman/apidoc-swagger.svg?style=svg)](https://circleci.com/gh/fsbahman/apidoc-swagger)
+Build Status: [![CircleCI](https://circleci.com/gh/socialtables/apidoc-swagger/tree/master.svg?style=svg)](https://circleci.com/gh/socialtables/apidoc-swagger/tree/master)
 
 apidoc and swagger are two nice projects which are focusing on documentation of APIs. 
 This project is a middle tier which tries to bring them together in a sense that:
