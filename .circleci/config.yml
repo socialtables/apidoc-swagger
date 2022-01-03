@@ -7,7 +7,7 @@ version: 2.1
 orbs:
   node: circleci/node@5
 jobs:
-  test_my_app:
+  install-node-example:
     docker:
       - image: 'cimg/base:stable'
     steps:
