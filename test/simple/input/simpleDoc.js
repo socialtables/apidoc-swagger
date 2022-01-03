@@ -1,5 +1,5 @@
 /**
- * @api {get} /user/id Request User information
+ * @api {get} /user/:id Request User information
  * @apiName GetUser
  * @apiGroup User
  *
