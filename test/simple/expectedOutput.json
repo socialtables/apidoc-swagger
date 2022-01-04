@@ -18,7 +18,14 @@
             "required": true,
             "type": "number",
             "description": "Users unique ID."
-          }
+          },
+          {
+						"name": "accept",
+						"in": "header",
+						"required": false,
+						"type": "string",
+						"description": "Specify image/png to recieve an image response"
+					}
         ],
         "responses": {
           "200": {
