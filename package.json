@@ -1,10 +1,9 @@
 {
-  "name": "apidoc-swagger",
+  "name": "@socialtables/apidoc-swagger",
   "version": "0.3.4",
   "description": "Convert api doc json to swagger json",
-  "author": "Bahman Fakhr Sabahi; SocialTables",
+  "author": "Social Tables, Bahman Fakhr Sabahi",
   "license": "MIT",
-  "preferGlobal": true,
   "bin": "bin/apidocSwagger.js",
   "main": "./lib/index.js",
   "repository": {
@@ -24,7 +23,7 @@
     "swagger"
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 10.0.0"
   },
   "dependencies": {
     "@gerhobbelt/nomnom": "^1.8.4-31",
