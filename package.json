@@ -2,11 +2,8 @@
   "name": "apidoc-swagger",
   "version": "0.3.4",
   "description": "Convert api doc json to swagger json",
-  "author": "Bahman Fakhr Sabahi",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/fsbahman/apidoc-swagger/blob/master/README.md/LICENSE"
-  },
+  "author": "Bahman Fakhr Sabahi; SocialTables",
+  "license": "MIT",
   "preferGlobal": true,
   "bin": "bin/apidocSwagger.js",
   "main": "./lib/index.js",
