@@ -7,3 +7,6 @@ json/
 lib/read
 obj/
 yarn.lock
+package.lock
+.whitesource
+.circleci
