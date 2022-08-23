@@ -11,7 +11,7 @@
  */
 
 var path   = require('path');
-var nomnom = require('nomnom');
+var nomnom = require('@gerhobbelt/nomnom');
 var apidocSwagger = require('../lib/index');
 
 var argv = nomnom
