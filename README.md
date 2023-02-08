@@ -1,9 +1,10 @@
 # apidoc-swagger
 
-Build Status: [![CircleCI](https://circleci.com/gh/socialtables/apidoc-swagger/tree/master.svg?style=svg)](https://circleci.com/gh/socialtables/apidoc-swagger/tree/master)
+Build Status: [![CircleCI](https://circleci.com/gh/socialtables/apidoc-swagger/tree/main.svg?style=svg)](https://circleci.com/gh/socialtables/apidoc-swagger/tree/main)
 
-apidoc and swagger are two nice projects which are focusing on documentation of APIs. 
+apidoc and swagger are two nice projects which are focusing on documentation of APIs.
 This project is a middle tier which tries to bring them together in a sense that:
+
 > It uses apidoc to convert inline documentation comments into json schema and later convert it to swagger json schema.
 
 Uses the [apidoc-core](https://github.com/apidoc/apidoc-core) library.
@@ -13,6 +14,7 @@ Uses the [apidoc-core](https://github.com/apidoc/apidoc-core) library.
 By putting in line comments in the source code like this in javascript, you will get `swagger.json` file which can be served to [swagger-ui](https://github.com/swagger-api/swagger-ui) to generate html overview of documentation.
 
 `/api/foo.js`:
+
 ```js
 /**
  * @api {get} /user/id Request User information
@@ -26,11 +28,9 @@ By putting in line comments in the source code like this in javascript, you will
  */
 ```
 
-
 ## Installation
 
 `npm install apidoc-swagger -g`
-
 
 Current version unlocks most of the basic capabilities of both projects and improvement is in progress.
 
@@ -38,12 +38,9 @@ Current version unlocks most of the basic capabilities of both projects and impr
 
 `apidoc-swagger -i example/ -o doc/`
 
-
-
 Have a look at [apidoc](https://github.com/apidoc/apidoc) for full functionality overview and capabilities of apidoc.
 
 To read more about how swagger works refer to [swagger-ui](https://github.com/swagger-api/swagger-ui) and [swagger-spec](https://github.com/swagger-api/swagger-spec) for details of `swagger.json`.
-
 
 ## Gulp Module
 

@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "apidoc-swagger",
+    "title": "@socialtables/apidoc-swagger",
     "version": "0.2.3",
     "description": "Convert api doc json to swagger json"
   },
@@ -20,12 +20,12 @@
             "description": "Users unique ID."
           },
           {
-						"name": "accept",
-						"in": "header",
-						"required": false,
-						"type": "string",
-						"description": "Specify image/png to recieve an image response"
-					}
+            "name": "accept",
+            "in": "header",
+            "required": false,
+            "type": "string",
+            "description": "Specify image/png to recieve an image response"
+          }
         ],
         "responses": {
           "200": {
