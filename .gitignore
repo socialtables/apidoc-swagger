@@ -3,3 +3,9 @@ node_modules/
 json/
 obj/
 .vscode/
+
+# cdk outputs artifacts into tmp/cdk
+tmp
+
+# sonarcloud artifacts
+.scannerwork
