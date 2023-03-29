@@ -42,7 +42,7 @@
   "scripts": {
     "test": "jest",
     "changeset": "changeset",
-    "release": "st-changeset release --skipPublish"
+    "release": "st-changeset release"
   },
   "jshintConfig": {
     "camelcase": true,
