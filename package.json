@@ -23,7 +23,7 @@
     "swagger"
   ],
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 18.20.0"
   },
   "dependencies": {
     "@gerhobbelt/nomnom": "^1.8.4-31",
