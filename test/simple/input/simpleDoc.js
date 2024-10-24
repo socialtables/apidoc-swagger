@@ -18,6 +18,7 @@
  * @apiName GetTeam
  * @apiGroup Team
  * @apiParam {Number} id Team Id.
+ * @apiPermission x-admin-only
  * @apiDescription Get team information
  * @apiSuccess {Number} id Id of the team
  * @apiSuccess {String} name Name of the team
