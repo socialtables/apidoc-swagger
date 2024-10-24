@@ -1,6 +1,6 @@
 {
   "name": "@socialtables/apidoc-swagger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert api doc json to swagger json",
   "author": "Social Tables, Bahman Fakhr Sabahi",
   "license": "MIT",
